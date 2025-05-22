@@ -98,14 +98,31 @@ body {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .btn:hover {
   background-color: #FF8B4D;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn-large {
-  padding: 12px 24px;
+  padding: 14px 28px;
   font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--kavia-orange);
+  color: var(--kavia-orange);
+}
+
+.btn-outline:hover {
+  background-color: var(--kavia-orange);
+  color: white;
 }
