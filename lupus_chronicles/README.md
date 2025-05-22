@@ -1,82 +1,78 @@
-# Lightweight React Template for KAVIA
+# Lupus Chronicles: Exploring Wolf Behavior, Ecology, and Conservation
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A comprehensive blog exploring the fascinating world of wolves, their behavior, ecology, and conservation efforts.
+
+## Project Overview
+
+Lupus Chronicles is a React-based blog dedicated to sharing knowledge about wolves and their importance in our ecosystems. The blog covers three main topics:
+
+- **Behavior** - Wolf social structures, communication methods, hunting strategies, and other behaviors
+- **Ecology** - The ecological role of wolves and their impact on ecosystems
+- **Conservation** - Challenges and successes in wolf conservation efforts worldwide
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- Responsive design for optimal viewing on all devices
+- Clean, modern UI with intuitive navigation
+- Article categorization by topic
+- Featured articles section
+- Educational resources
 
 ## Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-### `npm test`
+1. Clone the repository
+2. Navigate to the project directory:
+```
+cd lupus_chronicles
+```
+3. Install dependencies:
+```
+npm install
+```
+4. Start the development server:
+```
+npm start
+```
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Launches the test runner in interactive watch mode.
+## Project Structure
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Customization
-
-### Colors
-
-The main brand colors are defined as CSS variables in `src/App.css`:
-
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
+```
+lupus_chronicles/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── blog/         # Blog-specific components
+│   │   ├── common/       # Reusable UI components
+│   │   └── layout/       # Layout components like Header, Footer, MainContainer
+│   ├── pages/            # Page components
+│   ├── App.js            # Main App component with routing
+│   └── index.js          # Entry point
+├── package.json
+└── README.md
 ```
 
-### Components
+## Technologies Used
 
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
+- React
+- React Router
+- CSS (no additional CSS frameworks for lightweight performance)
 
 ## Learn More
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn more about wolves and their conservation:
 
-### Code Splitting
+- [Wolf Conservation Center](https://nywolf.org/)
+- [International Wolf Center](https://wolf.org/)
+- [Defenders of Wildlife](https://defenders.org/wildlife/wolves)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
